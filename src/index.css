@@ -6,10 +6,10 @@ body, html {
   height: 100%;
   width: 100%;
   margin: 0;
-  background-image: url("./media/vader.jpeg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
+  /*background-image: url("./media/vader.jpeg");*/
+  /*background-repeat: no-repeat;*/
+  /*background-size: cover;*/
+  /*background-position: center center;*/
   /*font: 400 15px/1.8 "Lato", sans-serif;*/
   /*color: #777;*/
   /*font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',*/
@@ -23,8 +23,8 @@ body, html {
 /*}*/
 
 div.background-image {
-  /*background-image: url("./media/vader.jpeg");*/
-  height: 100%;
+  background-image: url("./media/vader.jpeg");
+  height: 100vh;
   width: 100%;
   /*position: ;*/
   background-position: center center;
