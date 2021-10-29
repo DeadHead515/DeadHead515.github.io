@@ -12,9 +12,12 @@ function App() {
 
   return (
 
-        <div className='background-image'>
+    <div className='background-image'>
+        <div className='container'>
             <h1>Hello Jedi... </h1>
         </div>
+    </div>
+
   );
 }
 // <div className="App">
