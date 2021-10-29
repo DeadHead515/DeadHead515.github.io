@@ -14,7 +14,9 @@ function App() {
 
     <div className='background-image'>
         <div className='container'>
-            <h1>Hello Jedi... </h1>
+            <div className='jedi'>
+                <h1>Hello Jedi... </h1>
+            </div>
         </div>
     </div>
 
