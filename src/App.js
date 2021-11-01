@@ -1,6 +1,9 @@
 import logo_ from './svg/logo_.svg';
 import vader from './media/vader.jpeg';
 import './App.css';
+import { Navbar } from "./navbar";
+import { Projects } from "./projects"
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const bgStyle = {
     backgroundImage: `url(${vader})`,
@@ -14,9 +17,14 @@ function App() {
 
     <div className='background-image'>
         <div className='container'>
+            <Navbar />
             <div className='jedi'>
                 <h1>Hello Jedi... </h1>
             </div>
+
+        </div>
+        <div>
+            <Projects />
         </div>
     </div>
 
