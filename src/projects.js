@@ -10,7 +10,7 @@ export class Projects extends React.Component {
                         <Card className='projects'>
                             <Card.Img variant="top" src={Ewok}/>
                             <Card.Body>
-                                <Card.Title>CARD TITLE TEST</Card.Title>
+                                <Card.Title>Project App</Card.Title>
                                 <Card.Text>
                                     This is a longer card with supporting text below as a natural
                                     lead-in to additional content. This content is a little bit longer.

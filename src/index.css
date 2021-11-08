@@ -49,3 +49,9 @@ h1{
   color: lightslategrey;
   font-size: xxx-large;
 }
+.projects-div{
+  display: flex;
+  flex-direction: row;
+  margin: 5px;
+  padding: 3px;
+}

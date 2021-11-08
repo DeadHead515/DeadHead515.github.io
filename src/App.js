@@ -3,6 +3,7 @@ import vader from './media/vader.jpeg';
 import './App.css';
 import { Navbar } from "./navbar";
 import { Projects } from "./projects"
+import { ProjectDemo } from "./projectDemo";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const bgStyle = {
@@ -23,8 +24,11 @@ function App() {
             </div>
 
         </div>
-        <div>
+        <div className='projects-div'>
             <Projects />
+        </div>
+        <div className='project-demo-div'>
+            <ProjectDemo />
         </div>
     </div>
 

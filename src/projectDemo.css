@@ -1,0 +1,62 @@
+.project-page{
+    display: flex;
+    flex-direction: row;
+    /*border: 2px solid black;*/
+    justify-content: center;
+}
+.project-card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+}
+.project-container{
+    display: flex;
+    flex-direction: column;
+}
+.project-photo{
+    display: flex;
+    flex-direction: row;
+    /*border: 1px solid blue;*/
+    justify-content: center;
+    padding: 5px;
+}
+.project-git-hub{
+    max-height: 50px;
+    max-width: 80px;
+    background: dodgerblue;
+    color: whitesmoke;
+}
+/* On mouse-over, add a deeper shadow */
+.project-card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.project-info {
+    display: flex;
+    flex-direction: column;
+    padding: 2px 16px;
+}
+img {
+    max-height: 348px;
+    max-width: 224px;
+    border-radius: 5px 5px 0 0;
+}
+.project-buttons{
+    /*border: 1px solid black;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 24px;
+    padding: 3px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.project-description{
+    height: 25px;
+}
+.code-used{
+    padding: 1px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
