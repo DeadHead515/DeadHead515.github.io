@@ -7,18 +7,13 @@ export class Navbar extends React.Component {
         return (
             <Nav className="justify-content-center" activeKey="/home">
                 <Nav.Item>
-                    <Nav.Link href="/home">Active</Nav.Link>
+                    <Nav.Link href="/home">About</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
                     <Nav.Link eventKey="#projects">Projects</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                    <Nav.Link eventKey="#about">About</Nav.Link>
-                </Nav.Item>
-                <Nav.Item>
-                    <Nav.Link eventKey="disabled" disabled>
-                        Disabled
-                    </Nav.Link>
+                    <Nav.Link eventKey="#about">Interests</Nav.Link>
                 </Nav.Item>
             </Nav>
         )
