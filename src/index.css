@@ -40,7 +40,6 @@ div.navbar {
 .jedi {
   display: flex;
   flex-direction: column;
-  /*border: 1px solid red;*/
   height: 100vh;
   justify-content: center;
 }

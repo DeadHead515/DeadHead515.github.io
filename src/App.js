@@ -4,7 +4,9 @@ import './App.css';
 import { Navbar } from "./navbar";
 import { Skills } from "./components/skills"
 import { Projects } from "./projects"
-import { ProjectDemo } from "./projectDemo";
+import { AboutMe } from './components/aboutMe';
+// import { ProjectDemo } from "./projectDemo";
+import { Interests } from './components/Interests';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const bgStyle = {
@@ -21,23 +23,15 @@ function App() {
         <div className='navbar'>
             <Navbar />
         </div>
-        <div className='jedi'>
-                <h1>About Me</h1>
+        <div className='jedi' style={{color: 'white'}}>
+            <AboutMe/>
+            <Skills />
         </div>
-        <div>
-            <Projects />
+        <div className='Interest' style={{color: 'white'}}>
+            <Interests/>
         </div>
-        {/* <div className='project-demo-div'>
-            <ProjectDemo />
-        </div> */}
-        <div className='Skills'>
-           <Skills />
-        </div>
-        <div className='Interest'>
-            <h4>Interests.</h4>
-        </div>
+        {/* TODO add in projects.  */}
     </div>
-
   );
 }
 
