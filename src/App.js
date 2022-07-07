@@ -18,24 +18,23 @@ function App() {
   return (
 
     <div className='background-image'>
-        <div className='container'>
+        <div className='navbar'>
             <Navbar />
-            <div className='jedi'>
-                <h1>Hello Jedi... </h1>
-            </div>
-
         </div>
-        {/* <div className='projects-div'>
+        <div className='jedi'>
+                <h1>About Me</h1>
+        </div>
+        <div>
             <Projects />
         </div>
-        <div className='project-demo-div'>
+        {/* <div className='project-demo-div'>
             <ProjectDemo />
         </div> */}
         <div className='Skills'>
            <Skills />
         </div>
-        <div className='About'>
-            <h4>About Me.</h4>
+        <div className='Interest'>
+            <h4>Interests.</h4>
         </div>
     </div>
 
