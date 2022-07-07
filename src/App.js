@@ -26,8 +26,6 @@ function App() {
         <div className='jedi' style={{color: 'white'}}>
             <AboutMe/>
             <Skills />
-        </div>
-        <div className='Interest' style={{color: 'white'}}>
             <Interests/>
         </div>
         {/* TODO add in projects.  */}
