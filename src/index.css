@@ -28,7 +28,6 @@ div.navbar {
 .jedi {
   display: flex;
   flex-direction: column;
-  height: 100vh;
   justify-content: space-around;
 }
 h1{
@@ -46,4 +45,8 @@ h1{
 .nav-link:hover{
   margin-top: 2px;
   border-bottom: 2px solid white;
+}
+
+.ul > li{
+  text-shadow: "4px 4px 6px #000000";
 }
