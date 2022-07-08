@@ -7,7 +7,7 @@ export class Skills extends React.Component {
     render(){
         return (
             <div>
-                <div style={{display: 'flex', flexDirection:'row', justifyContent: 'center', }}>
+                <div style={{display: 'flex', flexDirection:'row', justifyContent: 'center', textShadow: "4px 4px 6px #000000" }}>
                     <h4>Current Skill Set:</h4>
                 </div>
                 <div style={{display: 'flex', flexDirection:'row', justifyContent: 'center', }}>
