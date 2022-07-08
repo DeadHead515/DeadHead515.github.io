@@ -10,7 +10,7 @@ import TwoWheelerIcon from '@mui/icons-material/TwoWheeler';
 
 export const Interests= () => {
     return(
-            <Container id='projects'>
+            <Container id='projects' style={{marginTop: '20px', marginBottom:'20px'}}>
                 <Row style={{  display: 'flex', flexDirection:'row', justifyContent: 'center', fontSize: '30px', textShadow: "4px 4px 6px #000000" }}>
                     Things I like to Do:
                 </Row>
