@@ -7,7 +7,8 @@ export const AboutMe = () => {
             </br>
             <div style={{ textShadow: "4px 4px 6px #000000", fontSize: '30px'}}>Hey, I'm Kris.</div>
             <EmojiPeopleIcon fontSize="large"/>
-            <p style={{ textShadow: "4px 4px 6px #000000"}}>A passionate developer from the Des Moines, IA area. </p>
+            <p style={{ textShadow: "4px 4px 6px #000000"}}>A passionate developer from the Des Moines, IA. </p>
+            <p style={{ textShadow: "4px 4px 6px #000000"}}>Currently a full stack developer at LightEdge Solutions.</p>
         </Container>
     );
 }
