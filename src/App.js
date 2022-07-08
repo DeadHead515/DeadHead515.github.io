@@ -1,9 +1,9 @@
 import logo_ from './svg/logo_.svg';
 import vader from './media/vader.jpeg';
 import './App.css';
-import { Navbar } from "./navbar";
+import { Navbar } from "./components/navbar";
 import { Skills } from "./components/skills"
-import { Projects } from "./projects"
+import { Projects } from "./components/projects"
 import { AboutMe } from './components/aboutMe';
 import { Footer } from './components/footer';
 // import { ProjectDemo } from "./projectDemo";

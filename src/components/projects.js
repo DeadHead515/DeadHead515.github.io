@@ -1,7 +1,7 @@
 import { Card, Row, Col, Container, Button } from "react-bootstrap";
 import React from "react";
-import Ewok from './media/Ewok.png';
-import Towers from './media/towers.png';
+import Ewok from '../media/Ewok.png';
+import Towers from '../media/towers.png';
 
 export const Projects= () => {
     const projectlist = [{title: 'Custom Decks', img: {Ewok}, description: 'Website for construction company'}, 
