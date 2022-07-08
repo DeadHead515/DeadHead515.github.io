@@ -5,6 +5,7 @@ import { Navbar } from "./navbar";
 import { Skills } from "./components/skills"
 import { Projects } from "./projects"
 import { AboutMe } from './components/aboutMe';
+import { Footer } from './components/footer';
 // import { ProjectDemo } from "./projectDemo";
 import { Interests } from './components/Interests';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -29,6 +30,7 @@ function App() {
             <Interests/>
         </div>
         {/* TODO add in projects.  */}
+        <Footer/>
     </div>
   );
 }

@@ -1,6 +1,6 @@
 import React from 'react';
-//TODO figure out how to load this thing
-// import PhpIcon from '@mui/icons-material/Php';
+import PhpIcon from '@mui/icons-material/Php';
+import JavascriptIcon from '@mui/icons-material/Javascript';
 
 
 export class Skills extends React.Component {
@@ -12,8 +12,8 @@ export class Skills extends React.Component {
                 </div>
                 <div style={{display: 'flex', flexDirection:'row', justifyContent: 'center', }}>
                     <ul>
-                        <li>PHP</li>
-                        <li>JavaScript</li>
+                        <li><PhpIcon/>PHP</li>
+                        <li><JavascriptIcon/>JavaScript</li>
                         <li>SQL</li>
                         <li>React</li>
                     </ul>
