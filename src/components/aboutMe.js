@@ -5,7 +5,7 @@ export const AboutMe = () => {
         <Container style={{display:'flex', flexDirection: 'column', alignItems: 'center'}}>
             <br>
             </br>
-            <h4 style={{ textShadow: "4px 4px 6px #000000"}}>Hey, I'm Kris.</h4>
+            <div style={{ textShadow: "4px 4px 6px #000000", fontSize: '30px'}}>Hey, I'm Kris.</div>
             <EmojiPeopleIcon/>
             <p style={{ textShadow: "4px 4px 6px #000000"}}>A passionate developer from the Des Moines, IA area. </p>
         </Container>

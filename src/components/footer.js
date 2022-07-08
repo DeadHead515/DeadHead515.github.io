@@ -8,8 +8,8 @@ export const Footer = () =>{
                 Contact Me
             </Row>
             <div style={{display: 'flex',flexDirection: 'row', justifyContent:'space-evenly'}}>
-            <div style={{display:'flex', flexDirection: 'column' , alignItems: 'center'}}><EmailIcon/><p>kristopher.j.jurgens@gmail.com</p></div>
-            <div style={{display:'flex', flexDirection: 'column' , alignItems: 'center'}}><LinkedInIcon/><p>Linked In.</p></div>
+            <div style={{display:'flex', flexDirection: 'column' , alignItems: 'center'}}><EmailIcon/><p>Email</p></div>
+            <div style={{display:'flex', flexDirection: 'column' , alignItems: 'center'}}><LinkedInIcon/><p>Linked In</p></div>
             </div>
             
         </Container>
