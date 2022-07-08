@@ -6,7 +6,7 @@ import Towers from './media/towers.png';
 export const Projects= () => {
     const projectlist = [{title: 'Custom Decks', img: {Ewok}, description: 'Website for construction company'}, 
     {title: 'Towers of Hano', img: {Ewok}, description: 'Text based game'}];
-    
+    // projectList.map()
     return (
         
             <Container className='projects-div'>
