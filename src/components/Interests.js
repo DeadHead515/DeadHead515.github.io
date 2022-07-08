@@ -1,4 +1,4 @@
-import { Container, ListGroup, ListGroupItem, Row } from "react-bootstrap";
+import { Container, Row } from "react-bootstrap";
 import HikingIcon from '@mui/icons-material/Hiking';
 import OutdoorGrillIcon from '@mui/icons-material/OutdoorGrill';
 import AutoStoriesIcon from '@mui/icons-material/AutoStories';
@@ -10,11 +10,11 @@ import TwoWheelerIcon from '@mui/icons-material/TwoWheeler';
 
 export const Interests= () => {
     return(
-            <Container>
+            <Container id='projects'>
                 <Row style={{  display: 'flex', flexDirection:'row', justifyContent: 'center', fontSize: '30px', textShadow: "4px 4px 6px #000000" }}>
                     Things I like to Do:
                 </Row>
-                <div style={{display: 'flex', flexDirection:'row', justifyContent: 'center', }}>
+                <div style={{display: 'flex', flexDirection:'row', justifyContent: 'center' }}>
                     <ul style={{marginRight: "15px", listStyleType: 'none'}}>
                         <li><PhishingIcon/> Fishing</li>
                         <li><SportsFootballIcon/> Football</li>
