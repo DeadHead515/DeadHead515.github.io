@@ -15,14 +15,14 @@ export const Interests= () => {
                     Things I like to Do:
                 </Row>
                 <div style={{display: 'flex', flexDirection:'row', justifyContent: 'center', }}>
-                    <ul style={{marginRight: "15px"}}>
+                    <ul style={{marginRight: "15px", listStyleType: 'none'}}>
                         <li><PhishingIcon/> Fishing</li>
                         <li><SportsFootballIcon/> Football</li>
                         <li><LibraryMusicIcon/> Guitar</li>
                         <li><TwoWheelerIcon/> Biking</li>
                     </ul>
                 
-                    <ul style={{marginLeft: "15px"}}>
+                    <ul style={{marginLeft: "15px", listStyleType: 'none'}}>
                         <li><GolfCourseIcon /> Disc Golf</li>
                         <li><AutoStoriesIcon/> Reading</li>
                         <li><HikingIcon/> Hiking</li>
