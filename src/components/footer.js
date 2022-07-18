@@ -2,12 +2,14 @@ import { Container, Row } from "react-bootstrap"
 import EmailIcon from '@mui/icons-material/Email';
 import { IconButton } from "@mui/material";
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import GitHubIcon from '@mui/icons-material/GitHub';
 export const Footer = () =>{
     let email = 'kristopher.j.jurgens@gmail.com';
     let subject = 'Profile Website';
     // document.write('<a href="mailto:' + email + '?subject=' +subject+ '&body=' +body+ '">' + 'Click here to send email as well' + '<'+'/a>');
     let messageEmail = 'Sorry this is currently not set up right now. Please send an email to kristopher.j.jurgens@gmail.com if you would like to talk.'
     let messageLinkedIn = 'Sorry this is currently not set up right now. Please search for Kristopher Jurgens on linkedIn if you would like to talk.'
+    let messageGitHub = 'Sorry this is currently not set up right now. Please search for Deadhead515 on github if you would like to talk.'
 
 
     return (
@@ -26,9 +28,15 @@ export const Footer = () =>{
                 <IconButton onClick={()=> {alert(messageLinkedIn);}} sx={{color: 'white'}} aria-label="email" component="span">
                     <LinkedInIcon/>
                 </IconButton>
-                <p>Linked In</p></div>
+                <p>Linked In</p>
             </div>
-            
+            <div style={{display:'flex', flexDirection: 'column' , alignItems: 'center'}}>
+                <IconButton onClick={()=> {alert(messageGitHub);}} sx={{color: 'white'}} aria-label="email" component="span">
+                    <GitHubIcon/>
+                </IconButton>
+                <p>GitHub</p></div>
+            </div>
+              
         </Container>
     )
 }
