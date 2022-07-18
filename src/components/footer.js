@@ -11,6 +11,10 @@ export const Footer = () =>{
     let messageLinkedIn = 'Sorry this is currently not set up right now. Please search for Kristopher Jurgens on linkedIn if you would like to talk.'
     let messageGitHub = 'Sorry this is currently not set up right now. Please search for Deadhead515 on github if you would like to talk.'
 
+    
+    let link = "mailto:kristopher.j.jurgens@gmail.com?subject=Getting in touch";
+    let linkedInLink = 'https://www.linkedin.com/in/kristopher-jurgens-601364232/'  
+    
 
     return (
         <Container style={{color: 'white'}} >
@@ -19,19 +23,19 @@ export const Footer = () =>{
             </Row>
             <div style={{display: 'flex',flexDirection: 'row', justifyContent:'space-evenly'}}>
             <div style={{display:'flex', flexDirection: 'column' , alignItems: 'center'}}>
-                <IconButton onClick={()=> {alert(messageEmail);}} sx={{color: 'white'}} aria-label="email" component="span">
+                <IconButton onClick={event => {window.location.href=link}} sx={{color: 'white'}} aria-label="email" component="span">
                     <EmailIcon/>
                 </IconButton>
                 <p>Email</p>
             </div>
             <div style={{display:'flex', flexDirection: 'column' , alignItems: 'center'}}>
-                <IconButton onClick={()=> {alert(messageLinkedIn);}} sx={{color: 'white'}} aria-label="email" component="span">
+                <IconButton onClick={event => {window.location.href = linkedInLink}} sx={{color: 'white'}} aria-label="email" component="span">
                     <LinkedInIcon/>
                 </IconButton>
                 <p>Linked In</p>
             </div>
             <div style={{display:'flex', flexDirection: 'column' , alignItems: 'center'}}>
-                <IconButton onClick={()=> {alert(messageGitHub);}} sx={{color: 'white'}} aria-label="email" component="span">
+                <IconButton onClick={ event => {window.location.href='https://github.com/DeadHead515';}} sx={{color: 'white'}} aria-label="email" component="span">
                     <GitHubIcon/>
                 </IconButton>
                 <p>GitHub</p></div>
