@@ -6,7 +6,7 @@ import JavascriptIcon from '@mui/icons-material/Javascript';
 export class Skills extends React.Component {
     render(){
         return (
-            <div style={{marginTop: '20px', marginBottom: '20px'}}>
+            <div id='skills' style={{marginTop: '20px', marginBottom: '20px'}}>
                 <div style={{display: 'flex', flexDirection:'row',fontSize:'30px', justifyContent: 'center', textShadow: "4px 4px 6px #000000" }}>
                     Skill Set:
                 </div>

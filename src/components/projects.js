@@ -9,7 +9,7 @@ export const Projects= () => {
     // projectList.map()
     return (
         
-            <Container className='projects-div'>
+            <Container id="projects" className='projects-div'>
                 <Col lg={4} >
                     <Card className='projects'>
                         <Card.Img variant="top" src={Ewok} />
